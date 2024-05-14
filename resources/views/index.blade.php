@@ -16,7 +16,7 @@
             
             <form method="POST" id="myForm">
                 @csrf
-                <input type="text"  id="event_name"  placeholder="イベント名を入力してください"><br />
+                <input type="text"  name="event_name"  placeholder="イベント名を入力してください"><br />
                 <button id="start" type="submit">開始する</button>
             </form>
             

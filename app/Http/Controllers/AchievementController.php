@@ -60,7 +60,7 @@ class AchievementController extends Controller
             $achievement->end_time = now();
             
             // `status`を`true`に変更
-            $achievement->status = true;
+            $achievement->status = 1;
             
             // 取得したレコードの`start_time`を使用
             $startTime = $achievement->start_time;
